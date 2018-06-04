@@ -1,0 +1,407 @@
+The system is: Linux - 3.10.0-327.36.3.el7.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/jchoward/miniconda/envs/newriver_psi4/bin/g++ 
+Build flags: ;-march=native;-fopenmp
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/3.9.4/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_71948/fast"
+/bin/gmake -f CMakeFiles/cmTC_71948.dir/build.make CMakeFiles/cmTC_71948.dir/build
+gmake[1]: Entering directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_71948.dir/testCXXCompiler.cxx.o
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++    -march=native -fopenmp    -o CMakeFiles/cmTC_71948.dir/testCXXCompiler.cxx.o -c /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_71948
+/home/jchoward/miniconda/envs/newriver_psi4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71948.dir/link.txt --verbose=1
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++   -march=native -fopenmp     -rdynamic CMakeFiles/cmTC_71948.dir/testCXXCompiler.cxx.o  -o cmTC_71948 
+gmake[1]: Leaving directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_d72c2/fast"
+/bin/gmake -f CMakeFiles/cmTC_d72c2.dir/build.make CMakeFiles/cmTC_d72c2.dir/build
+gmake[1]: Entering directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++    -march=native -fopenmp    -o CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o -c /home/jchoward/miniconda/envs/newriver_psi4/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d72c2
+/home/jchoward/miniconda/envs/newriver_psi4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d72c2.dir/link.txt --verbose=1
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++   -march=native -fopenmp    -v -rdynamic CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d72c2 
+Reading specs from /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/specs
+COLLECT_GCC=/home/jchoward/miniconda/envs/newriver_psi4/bin/g++
+COLLECT_LTO_WRAPPER=/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/jchoward/miniconda/envs/newriver_psi4/gcc --with-gxx-include-dir=/home/jchoward/miniconda/envs/newriver_psi4/gcc/include/c++ --bindir=/home/jchoward/miniconda/envs/newriver_psi4/bin --datarootdir=/home/jchoward/miniconda/envs/newriver_psi4/share --libdir=/home/jchoward/miniconda/envs/newriver_psi4/lib --with-gmp=/home/jchoward/miniconda/envs/newriver_psi4 --with-mpfr=/home/jchoward/miniconda/envs/newriver_psi4 --with-mpc=/home/jchoward/miniconda/envs/newriver_psi4 --with-isl=/home/jchoward/miniconda/envs/newriver_psi4 --with-cloog=/home/jchoward/miniconda/envs/newriver_psi4 --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 5.2.0 (GCC) 
+COMPILER_PATH=/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/:/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/lib/../lib64/:/usr/lib/../lib64/:/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/
+Reading specs from /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../libgomp.spec
+COLLECT_GCC_OPTIONS='-march=native' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_d72c2' '-shared-libgcc' '-pthread'
+ /home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d72c2 /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crt1.o /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crti.o /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtn.o
+gmake[1]: Leaving directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/bin/gmake" "cmTC_d72c2/fast"]
+  ignore line: [/bin/gmake -f CMakeFiles/cmTC_d72c2.dir/build.make CMakeFiles/cmTC_d72c2.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/jchoward/miniconda/envs/newriver_psi4/bin/g++    -march=native -fopenmp    -o CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o -c /home/jchoward/miniconda/envs/newriver_psi4/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d72c2]
+  ignore line: [/home/jchoward/miniconda/envs/newriver_psi4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d72c2.dir/link.txt --verbose=1]
+  ignore line: [/home/jchoward/miniconda/envs/newriver_psi4/bin/g++   -march=native -fopenmp    -v -rdynamic CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d72c2 ]
+  ignore line: [Reading specs from /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/specs]
+  ignore line: [COLLECT_GCC=/home/jchoward/miniconda/envs/newriver_psi4/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/jchoward/miniconda/envs/newriver_psi4/gcc --with-gxx-include-dir=/home/jchoward/miniconda/envs/newriver_psi4/gcc/include/c++ --bindir=/home/jchoward/miniconda/envs/newriver_psi4/bin --datarootdir=/home/jchoward/miniconda/envs/newriver_psi4/share --libdir=/home/jchoward/miniconda/envs/newriver_psi4/lib --with-gmp=/home/jchoward/miniconda/envs/newriver_psi4 --with-mpfr=/home/jchoward/miniconda/envs/newriver_psi4 --with-mpc=/home/jchoward/miniconda/envs/newriver_psi4 --with-isl=/home/jchoward/miniconda/envs/newriver_psi4 --with-cloog=/home/jchoward/miniconda/envs/newriver_psi4 --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/:/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/lib/../lib64/:/usr/lib/../lib64/:/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=native' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_d72c2' '-shared-libgcc' '-pthread']
+  link line: [ /home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d72c2 /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crt1.o /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crti.o /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtn.o]
+    arg [/home/jchoward/miniconda/envs/newriver_psi4/gcc/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d72c2] ==> ignore
+    arg [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crt1.o] ==> ignore
+    arg [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crti.o] ==> ignore
+    arg [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o] ==> ignore
+    arg [-L/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> dir [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> dir [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..]
+    arg [CMakeFiles/cmTC_d72c2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o] ==> ignore
+    arg [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtn.o] ==> ignore
+  collapse library dir [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> [/home/jchoward/miniconda/envs/newriver_psi4/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/home/jchoward/miniconda/envs/newriver_psi4/lib/gcc/x86_64-unknown-linux-gnu/5.2.0;/lib64;/usr/lib64;/home/jchoward/miniconda/envs/newriver_psi4/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_b24df/fast"
+/bin/gmake -f CMakeFiles/cmTC_b24df.dir/build.make CMakeFiles/cmTC_b24df.dir/build
+gmake[1]: Entering directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b24df.dir/feature_tests.cxx.o
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++    -march=native -fopenmp    -std=c++1z -o CMakeFiles/cmTC_b24df.dir/feature_tests.cxx.o -c /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b24df
+/home/jchoward/miniconda/envs/newriver_psi4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24df.dir/link.txt --verbose=1
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++   -march=native -fopenmp     -rdynamic CMakeFiles/cmTC_b24df.dir/feature_tests.cxx.o  -o cmTC_b24df 
+gmake[1]: Leaving directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_628e3/fast"
+/bin/gmake -f CMakeFiles/cmTC_628e3.dir/build.make CMakeFiles/cmTC_628e3.dir/build
+gmake[1]: Entering directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_628e3.dir/feature_tests.cxx.o
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++    -march=native -fopenmp    -std=c++14 -o CMakeFiles/cmTC_628e3.dir/feature_tests.cxx.o -c /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_628e3
+/home/jchoward/miniconda/envs/newriver_psi4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_628e3.dir/link.txt --verbose=1
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++   -march=native -fopenmp     -rdynamic CMakeFiles/cmTC_628e3.dir/feature_tests.cxx.o  -o cmTC_628e3 
+gmake[1]: Leaving directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_9ff85/fast"
+/bin/gmake -f CMakeFiles/cmTC_9ff85.dir/build.make CMakeFiles/cmTC_9ff85.dir/build
+gmake[1]: Entering directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ff85.dir/feature_tests.cxx.o
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++    -march=native -fopenmp    -std=c++11 -o CMakeFiles/cmTC_9ff85.dir/feature_tests.cxx.o -c /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9ff85
+/home/jchoward/miniconda/envs/newriver_psi4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ff85.dir/link.txt --verbose=1
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++   -march=native -fopenmp     -rdynamic CMakeFiles/cmTC_9ff85.dir/feature_tests.cxx.o  -o cmTC_9ff85 
+gmake[1]: Leaving directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_b96b6/fast"
+/bin/gmake -f CMakeFiles/cmTC_b96b6.dir/build.make CMakeFiles/cmTC_b96b6.dir/build
+gmake[1]: Entering directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b96b6.dir/feature_tests.cxx.o
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++    -march=native -fopenmp    -std=c++98 -o CMakeFiles/cmTC_b96b6.dir/feature_tests.cxx.o -c /home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b96b6
+/home/jchoward/miniconda/envs/newriver_psi4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b96b6.dir/link.txt --verbose=1
+/home/jchoward/miniconda/envs/newriver_psi4/bin/g++   -march=native -fopenmp     -rdynamic CMakeFiles/cmTC_b96b6.dir/feature_tests.cxx.o  -o cmTC_b96b6 
+gmake[1]: Leaving directory `/home/jchoward/newriver/rhf_dlmg2b/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
